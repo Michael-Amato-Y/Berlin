@@ -55,7 +55,7 @@ public class ProjectsTablePanel extends JPanel {
                             super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
                         if (isSelected)
                             return comp;
-                        comp.setBackground(new Color(230, 240, 255));
+                        comp.setBackground(new Color(100, 100, 100));
                         return comp;
                     }
                 };
