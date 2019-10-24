@@ -78,7 +78,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     text += "<br><b>" + othersHead + "</b><br>";    
     for (int i = 0; i < others.length; i++)
         text += others[i]+"<br>"; 
-    
+    text += "<br><br><br><br><br><br><br>";
     text += "</html>";
     
     image = new ImageIcon(AppFrame_AboutBox.class.getResource("/ui/memoranda.png"));
@@ -88,13 +88,13 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     lblText.setFont(new java.awt.Font("Dialog", 0, 11));
     lblText.setText(text);
     lblText.setBounds(10, 55, 300, 400);
-
+    lblText.setForeground(Color.white);
     
     button1.setText(Local.getString("Ok"));
     button1.setBounds(150, 415, 95, 30);
     button1.addActionListener(this);
     button1.setPreferredSize(new Dimension(95, 30));
-    button1.setBackground(new Color(69, 125, 186));
+    button1.setBackground(Color.black);
     button1.setForeground(Color.white);
     layeredPane = getLayeredPane();
     //layeredPane.setPreferredSize(new Dimension(300, 300));
@@ -103,7 +103,7 @@ public class AppFrame_AboutBox extends JDialog implements ActionListener {
     layeredPane.add(imgLabel, new Integer(1));
     layeredPane.add(lblText, new Integer(2));    
     layeredPane.add(button1, new Integer(2));
-    this.getContentPane().setBackground(new Color(251, 197, 63));
+    this.getContentPane().setBackground(Color.black);
   }
   //Overridden so we can exit when window is closed
   protected void processWindowEvent(WindowEvent e) {
