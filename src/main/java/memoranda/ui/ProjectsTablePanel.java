@@ -64,7 +64,7 @@ public class ProjectsTablePanel extends JPanel {
         }
     };
 
-    boolean activeOnly = false;
+    boolean activeOnly = true;
 
     public void updateUI() {
 		if(projectsTable!=null) projectsTable.updateUI();
