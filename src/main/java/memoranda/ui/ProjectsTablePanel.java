@@ -37,7 +37,7 @@ public class ProjectsTablePanel extends JPanel {
                             super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
                         comp.setFont(new java.awt.Font("Dialog", 1, 11));
                         if (((row % 2) > 0) && (!isSelected))
-                            comp.setBackground(new Color(230, 240, 255));
+                            comp.setBackground(new Color(5, 5, 5));
                         return comp;
                     }
                 };
