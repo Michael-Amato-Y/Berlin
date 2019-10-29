@@ -3,7 +3,7 @@
 
 ## 1: Basic Information (needed before you start with your Sprint -- Sprint Planning)
 
-**Topic you chose:** Create your own Scrumboard using Taiga as a reference.
+**Topic you chose:** Analyzing a Taiga Scrum Board
 
 **Sprint Number:** #1
 
@@ -14,28 +14,28 @@
 ### Sprint Planning
 Document your Sprint Planning here. Also check the kickoff document for more details on what needs to be done. This is just the documentation. 
 
-**Sprint Goal:** Your Sprint goal
+**Sprint Goal:** Reduce the UI and UX bugs to improve basic usability of the program, so the developers can accomplish more impactful tasks with less resistance.
 
-**How many User Stories did you add to the Product Backlog:**  Number
+**How many User Stories did you add to the Product Backlog:** 
+> 7 from example, 12 more added
 
 **How many User Stories did you add to this Sprint:** 
-> Answer the questions below about your Sprint Planning?
+> 7 from example, 2 more added
 
 **How many User Stories did you add?**
-
-> Your Answer
+> 2
 
 **Why did you add exactly these US?**
 
-> Your Answer
+> The 2 added US's are the first features that would be used when creating a scrumboard in our software. 
 
 **Why do you think you will get them done?**
 
-> Your Answer
+> There appears to be a balance of developers with API expereince and some without. The work can be distributed according to the teams strengths and weaknesses. 
 
 **Do you have a rough idea what you need to do? (if the answer is no then please let me know on Slack)**
 
-> Your Answer
+> Yes, I a rough idea. Taking 1-2 tasks per person, carry out that task. Keep updates in the Taiga board, follow GitHub and Scrum etiqutte.
 
 
 
